@@ -1,0 +1,42 @@
+{
+    "100": {
+        "action": "sfdcDigest",
+        "parameters": {
+            "object": "Account",
+            "fields": [
+                {
+                    "name": "Description"
+                },
+                {
+                    "name": "Fax"
+                },
+                {
+                    "name": "Id"
+                },
+                {
+                    "name": "Name"
+                },
+                {
+                    "name": "AccountNumber"
+                },
+                {
+                    "name": "AnnualRevenue"
+                },
+                {
+                    "name": "BillingStreet"
+                },
+                {
+                    "name": "ShippingPostalCode"
+                }
+            ]
+        }
+    },
+    "101": {
+        "action": "sfdcRegister",
+        "parameters": {
+            "source": "100",
+            "alias": null,
+            "name": null
+        }
+    }
+}
