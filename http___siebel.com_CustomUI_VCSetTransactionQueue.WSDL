@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><definitions
+<definitions
  xmlns="http://schemas.xmlsoap.org/wsdl/"
  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
  xmlns:xsdLocal1="http://www.siebel.com/xml/VCLead"
@@ -1112,7 +1112,7 @@
  binding="tns:VCSetTransactionQueue"
  name="VCSetTransactionQueue"
 ><soap:address
- location="http://localhost/eai_enu/start.swe?SWEExtSource=WebService&amp;SWEExtCmd=Execute&amp;UserName=SADMIN&amp;Password=SADMIN"
+ location="http://siebelapptrmk/eai_enu/start.swe?SWEExtSource=WebService&amp;SWEExtCmd=Execute&amp;UserName=SADMIN&amp;Password=SADMIN"
 ></soap:address
 ></port
 ></service
